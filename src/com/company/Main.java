@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.Arrays;
 
+import static com.company.EasyAdd.addition;
 import static com.company.Multiples.arrayOfMultiples;
 import static com.company.Sequence.boxSequences;
 import static com.company.TriangleWork.sideLengths;
@@ -17,10 +18,10 @@ public class Main {
         System.out.println("Triangle Work (30-60-90): " + Arrays.toString(sideLengths(8)));
 
         //call to Sequence method
-
-
         System.out.println("Box sequence: " + Arrays.toString(boxSequences(7)));
 
+        //call to EasyAdd
+        System.out.println("Easy add 1: " + Arrays.toString(new int[]{addition(5)})); //not sure why it needed a new int instead of just the call toString
     }
 
 }
