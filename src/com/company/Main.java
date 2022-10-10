@@ -3,6 +3,7 @@ package com.company;
 import java.util.Arrays;
 
 import static com.company.Multiples.arrayOfMultiples;
+import static com.company.Sequence.boxSequences;
 import static com.company.TriangleWork.sideLengths;
 
 public class Main {
@@ -14,6 +15,11 @@ public class Main {
 
         //call to TriangleWork method
         System.out.println("Triangle Work (30-60-90): " + Arrays.toString(sideLengths(8)));
+
+        //call to Sequence method
+
+
+        System.out.println("Box sequence: " + Arrays.toString(boxSequences(7)));
 
     }
 
