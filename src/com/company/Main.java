@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.Arrays;
 
+import static com.company.easy.CountPoints.footballPoints;
 import static com.company.easy.EasyAdd.addition;
 import static com.company.medium.Multiples.arrayOfMultiples;
 import static com.company.medium.Sequence.boxSequences;
@@ -26,6 +27,9 @@ public class Main {
 
         //call to XO
         System.out.println("XO: does the string contain the same amount of Xs and Os? " + xoCount("xeflfoeofjleoxxx/wEF"));
+
+        //call to football points
+        System.out.println("Input wins, draws, and losses to get total points: " + footballPoints(7,5,2));
     }
 
 }
