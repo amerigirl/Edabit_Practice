@@ -2,11 +2,11 @@ package com.company;
 
 import java.util.Arrays;
 
-import static com.company.EasyAdd.addition;
-import static com.company.Multiples.arrayOfMultiples;
-import static com.company.Sequence.boxSequences;
-import static com.company.TriangleWork.sideLengths;
-import static com.company.XO.xoCount;
+import static com.company.easy.EasyAdd.addition;
+import static com.company.medium.Multiples.arrayOfMultiples;
+import static com.company.medium.Sequence.boxSequences;
+import static com.company.easy.TriangleWork.sideLengths;
+import static com.company.medium.XO.xoCount;
 
 public class Main {
 

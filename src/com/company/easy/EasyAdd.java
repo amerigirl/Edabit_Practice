@@ -1,4 +1,4 @@
-package com.company;
+package com.company.easy;
 
 public class EasyAdd {
     public static int addition(int num) {

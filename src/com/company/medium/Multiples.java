@@ -1,4 +1,4 @@
-package com.company;
+package com.company.medium;
 
 public class Multiples {
     public static int[] arrayOfMultiples(int num, int length) {
