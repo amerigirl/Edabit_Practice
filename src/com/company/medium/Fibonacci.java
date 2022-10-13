@@ -18,23 +18,24 @@ public class Fibonacci {
 
         int[] fibonacciCache = new int[randomNumber + 1]; //because indexes start at 0, you must add 1 to the index
 
-            if (fibonacciCache[randomNumber] != 0) {
-                return fibonacciCache[randomNumber];
-            }
-
-        int nthFibonacciNumber = 0;
         int firstNumber = 0;
-        int secondNumber = 0;
+        int secondNumber = 1;
 
-            for(int i = 0; i < randomNumber; i++) {
-                nthFibonacciNumber = firstNumber + secondNumber;
-                firstNumber = secondNumber;
-                secondNumber = nthFibonacciNumber;
+        while(randomNumber <= 0){
+            return 1;
+        }
 
-                fibonacciCache[randomNumber] = nthFibonacciNumber;
-            }
+        if (fibonacciCache[randomNumber] != 0 ){
+            return fibonacciCache[randomNumber];
+        }
+        int nthFibonacciNumber = 0;
+        for (int i = 0; i < randomNumber; i++){
+            nthFibonacciNumber = (firstNumber + secondNumber);
+            firstNumber = secondNumber;
+            secondNumber = nthFibonacciNumber;
+            fibonacciCache[randomNumber] = nthFibonacciNumber;
+        }
 
         return nthFibonacciNumber;
-
     }
 }

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import static com.company.easy.CountPoints.footballPoints;
 import static com.company.easy.EasyAdd.addition;
-import static com.company.medium.Fibonacci.fibFormula;
+import static com.company.medium.Fibonacci.fibonacciFormula;
 import static com.company.medium.Multiples.arrayOfMultiples;
 import static com.company.medium.Sequence.boxSequences;
 import static com.company.easy.TriangleWork.sideLengths;
@@ -32,7 +32,7 @@ public class Main {
         //call to football points
         System.out.println("Input wins, draws, and losses to get total points: " + footballPoints(7,5,2));
 
-        System.out.println(fibFormula(3));
+        System.out.println("Choose a index number and we will tell you what number is there! " + fibonacciFormula(5));
     }
 
 }
