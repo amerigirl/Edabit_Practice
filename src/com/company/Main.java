@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import static com.company.easy.CountPoints.footballPoints;
 import static com.company.easy.EasyAdd.addition;
-import static com.company.easy.Fibonacci.fibFormula;
+import static com.company.medium.Fibonacci.fibFormula;
 import static com.company.medium.Multiples.arrayOfMultiples;
 import static com.company.medium.Sequence.boxSequences;
 import static com.company.easy.TriangleWork.sideLengths;
