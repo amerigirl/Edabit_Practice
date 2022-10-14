@@ -32,7 +32,7 @@ public class Main {
         //call to football points
         System.out.println("Input wins, draws, and losses to get total points: " + footballPoints(7,5,2));
 
-        System.out.println("Choose a index number and we will tell you what number is there! " + fibonacciFormula(5));
+        System.out.println("Choose a index number and we will tell you what number is there! " + fibonacciFormula(7));
     }
 
 }
