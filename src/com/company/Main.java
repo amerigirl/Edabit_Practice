@@ -6,6 +6,7 @@ import static com.company.easy.CountPoints.footballPoints;
 import static com.company.easy.EasyAdd.addition;
 import static com.company.easy.IsEqual.isHigherOrEqual;
 import static com.company.easy.IsSame.isSame;
+import static com.company.easy.RookWork.canCapture;
 import static com.company.medium.Fibonacci.fibonacciFormula;
 import static com.company.medium.Multiples.arrayOfMultiples;
 import static com.company.medium.Sequence.boxSequences;
@@ -34,13 +35,18 @@ public class Main {
         //call to football points
         System.out.println("Input wins, draws, and losses to get total points: " + footballPoints(7,5,2));
 
+        //cal to FibonacciFormula
         System.out.println("Choose a index number and we will tell you what number is there! " + fibonacciFormula(7));
 
+        //call to isSame
         System.out.println("Are these two numbers the same? " + isSame(3,3));
 
+        //call to isEqual
         int[] anotherArray = new int[20];
         System.out.println("Is there a number equal to or larger than 22? " + isHigherOrEqual(anotherArray, 22));
 
+        //call to RookWork
+        System.out.println("Can these two rooks attack each other? " + canCapture(new String[] {"A5", "D5"}));
     }
 
 }
