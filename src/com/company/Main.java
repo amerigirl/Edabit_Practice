@@ -8,6 +8,7 @@ import static com.company.easy.IsEqual.isHigherOrEqual;
 import static com.company.easy.IsSame.isSame;
 import static com.company.easy.RookWork.canCapture;
 import static com.company.medium.Fibonacci.fibonacciFormula;
+import static com.company.medium.InOrder.isInOrder;
 import static com.company.medium.Multiples.arrayOfMultiples;
 import static com.company.medium.Sequence.boxSequences;
 import static com.company.easy.TriangleWork.sideLengths;
@@ -47,6 +48,9 @@ public class Main {
 
         //call to RookWork
         System.out.println("Can these two rooks attack each other? " + canCapture(new String[] {"A5", "D5"}));
+
+        //call to InOrder
+        System.out.println("Is this word in alphabetical order? (word = dooz )" + isInOrder("dooz"));
     }
 
 }
