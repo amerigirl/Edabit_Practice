@@ -26,6 +26,8 @@ When "x" and "o" are not in the string, return true.
 
             if(xCount == oCount) {
                 return true;
+            } else if (xCount != oCount) {
+                return false;
             }
         }
         return false;
