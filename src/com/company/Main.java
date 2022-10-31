@@ -7,6 +7,7 @@ import static com.company.easy.EasyAdd.addition;
 import static com.company.easy.IsEqual.isHigherOrEqual;
 import static com.company.easy.IsSame.isSame;
 import static com.company.easy.RookWork.canCapture;
+import static com.company.easy.Sort.ascendingOrder;
 import static com.company.medium.Fibonacci.fibonacciFormula;
 import static com.company.medium.InOrder.isInOrder;
 import static com.company.medium.Multiples.arrayOfMultiples;
@@ -51,6 +52,10 @@ public class Main {
 
         //call to InOrder
         System.out.println("Is this word in alphabetical order? (word = dooz )" + isInOrder("dooz"));
+
+        //call to Sort
+         int[] quickArray = {7, 12, 0, 47, 88, 56, 20, 37};
+        System.out.println("is this array in ascending order? " + Arrays.toString(ascendingOrder(quickArray)));
     }
 
 }
