@@ -4,6 +4,7 @@ import com.company.easy.MatchesLastItem;
 
 import java.util.Arrays;
 
+import static com.company.easy.CanBeNested.canNest;
 import static com.company.easy.CountPoints.footballPoints;
 import static com.company.easy.EasyAdd.addition;
 import static com.company.easy.IsEqual.isHigherOrEqual;
@@ -62,9 +63,12 @@ public class Main {
 
         //call to MatchesLastItem
         String[] basicStringArray = {"love", "someone", "tomorrow", "lovesomeonetoday"};
-
         System.out.println("do the elements of following string array (" + basicStringArray[0] + "," + basicStringArray[1] + "," + basicStringArray[2] + ") " + "equal the last item: " + basicStringArray[3] + "? " + isEqualToLastItem(basicStringArray));
-        //isEqualToLastItem
+
+        //call to CanBeNested
+        int[] arr1 = {3, 4, 7, 8};
+        int[] arr2 = {0, 1, 3, 4, 9};
+        System.out.println(" can " + Arrays.toString(arr1) + " be nested in " + Arrays.toString(arr2) + "? " + canNest(arr1, arr2));
 
     }
 
