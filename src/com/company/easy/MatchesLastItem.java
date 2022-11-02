@@ -1,7 +1,7 @@
 package com.company.easy;
 
 public class MatchesLastItem {
-    public boolean isEqualToLastItem(String[] mainString){
+    public static boolean isEqualToLastItem(String[] mainString){
 
         /*Create a function that takes an array of items and checks if the last item matches the rest of the array concatenated together. */
 
@@ -15,6 +15,8 @@ public class MatchesLastItem {
         }
     return false;
     }
+
+
 }
 
 

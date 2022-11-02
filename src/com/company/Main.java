@@ -1,11 +1,14 @@
 package com.company;
 
+import com.company.easy.MatchesLastItem;
+
 import java.util.Arrays;
 
 import static com.company.easy.CountPoints.footballPoints;
 import static com.company.easy.EasyAdd.addition;
 import static com.company.easy.IsEqual.isHigherOrEqual;
 import static com.company.easy.IsSame.isSame;
+import static com.company.easy.MatchesLastItem.isEqualToLastItem;
 import static com.company.easy.RookWork.canCapture;
 import static com.company.easy.Sort.ascendingOrder;
 import static com.company.medium.Fibonacci.fibonacciFormula;
@@ -58,10 +61,13 @@ public class Main {
         System.out.println("is this array in ascending order? " + Arrays.toString(ascendingOrder(quickArray)));
 
         //call to MatchesLastItem
-        String[] basicStringArray = {"love", "someone", "today", "lovesomeonetoday"};
-        System.out.println("do the elements of following string array ( " + basicStringArray[0] + "," + basicStringArray[1] + "," + basicStringArray[2] + ")" + "equal the last item" + basicStringArray[3] + "? " );
+        String[] basicStringArray = {"love", "someone", "tomorrow", "lovesomeonetoday"};
+
+        System.out.println("do the elements of following string array (" + basicStringArray[0] + "," + basicStringArray[1] + "," + basicStringArray[2] + ") " + "equal the last item: " + basicStringArray[3] + "? " + isEqualToLastItem(basicStringArray));
+        //isEqualToLastItem
 
     }
+
 
 
 
