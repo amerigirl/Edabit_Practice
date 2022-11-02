@@ -54,8 +54,15 @@ public class Main {
         System.out.println("Is this word in alphabetical order? (word = dooz )" + isInOrder("dooz"));
 
         //call to Sort
-         int[] quickArray = {7, 12, 0, 47, 88, 56, 20, 37};
+        int[] quickArray = {7, 12, 0, 47, 88, 56, 20, 37};
         System.out.println("is this array in ascending order? " + Arrays.toString(ascendingOrder(quickArray)));
+
+        //call to MatchesLastItem
+        String[] basicStringArray = {"love", "someone", "today", "lovesomeonetoday"};
+        System.out.println("do the elements of following string array ( " + basicStringArray[0] + "," + basicStringArray[1] + "," + basicStringArray[2] + ")" + "equal the last item" + basicStringArray[3] + "? " );
+
     }
+
+
 
 }
