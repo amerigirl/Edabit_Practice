@@ -13,6 +13,7 @@ import static com.company.easy.MatchesLastItem.isEqualToLastItem;
 import static com.company.easy.RookWork.canCapture;
 import static com.company.easy.Sort.ascendingOrder;
 import static com.company.medium.Fibonacci.fibonacciFormula;
+import static com.company.medium.FixingErrors.basicCalculator;
 import static com.company.medium.InOrder.isInOrder;
 import static com.company.medium.Multiples.arrayOfMultiples;
 import static com.company.medium.Sequence.boxSequences;
@@ -69,6 +70,9 @@ public class Main {
         int[] arr1 = {3, 4, 7, 8};
         int[] arr2 = {0, 1, 3, 4, 9};
         System.out.println(" can " + Arrays.toString(arr1) + " be nested in " + Arrays.toString(arr2) + "? " + canNest(arr1, arr2));
+
+        //call to FixingErrors
+        System.out.println("What does 42 + 29 equal? " + basicCalculator(42, "+", 29));
 
     }
 
