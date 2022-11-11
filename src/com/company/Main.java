@@ -68,7 +68,7 @@ public class Main {
 
         //call to CanBeNested
         int[] arr1 = {3, 4, 7, 8};
-        int[] arr2 = {0, 1, 3, 4, 9};
+        int[] arr2 = {7, 10, 8, 4, 9};
         System.out.println(" can " + Arrays.toString(arr1) + " be nested in " + Arrays.toString(arr2) + "? " + canNest(arr1, arr2));
 
         //call to FixingErrors

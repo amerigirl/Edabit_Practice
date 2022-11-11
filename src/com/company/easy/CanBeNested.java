@@ -13,7 +13,7 @@ public class CanBeNested {
             [0,3,5,7,9]
         * */
 
-        boolean nestable = false;
+        boolean nestable = true;
 
         Arrays.sort(firstArray);
         Arrays.sort(secondArray);
