@@ -19,7 +19,7 @@ The Fibonacci Sequence is the series of numbers:
                 firstNumber = tempNumber;
             }
 
-            if (a > 1){
+            if (a > 1){                 //you need a way to prevent an infinite loop!
                 return secondNumber;
             } else {
                 return 1;
