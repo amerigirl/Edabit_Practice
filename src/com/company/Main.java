@@ -18,6 +18,7 @@ import static com.company.medium.InOrder.isInOrder;
 import static com.company.medium.Multiples.arrayOfMultiples;
 import static com.company.medium.Sequence.boxSequences;
 import static com.company.easy.TriangleWork.sideLengths;
+import static com.company.medium.Switcharoo.flipEndChars;
 import static com.company.medium.XO.xoCount;
 
 public class Main {
@@ -74,6 +75,9 @@ public class Main {
         //call to FixingErrors
         System.out.println("What does 42 + 29 equal? " + basicCalculator(42, "+", 29));
 
+        //call to switcharoo
+        String sampleString = "Kangaroo";
+        System.out.println("Can you switch the first and last letters in the word 'Kangaroo'? Response: " + flipEndChars(sampleString));
     }
 
 
