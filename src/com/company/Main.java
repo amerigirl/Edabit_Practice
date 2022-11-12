@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.easy.MatchesLastItem;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Arrays;
 
 import static com.company.easy.CanBeNested.canNest;
@@ -16,6 +17,7 @@ import static com.company.medium.Fibonacci.fibonacciFormula;
 import static com.company.medium.FixingErrors.basicCalculator;
 import static com.company.medium.InOrder.isInOrder;
 import static com.company.medium.Multiples.arrayOfMultiples;
+import static com.company.medium.ScoringSystem.calculateScores;
 import static com.company.medium.Sequence.boxSequences;
 import static com.company.easy.TriangleWork.sideLengths;
 import static com.company.medium.Switcharoo.flipEndChars;
@@ -78,6 +80,10 @@ public class Main {
         //call to switcharoo
         String sampleString = "Kangaroo";
         System.out.println("Can you switch the first and last letters in the word 'Kangaroo'? Response: " + flipEndChars(sampleString));
+
+        //call to ScoringSystem
+        String newString = "ACBBAACBAA";
+        System.out.println("Let's see who has the most initials from the string " + newString + ":" + Arrays.toString(calculateScores(newString)));
     }
 
 
