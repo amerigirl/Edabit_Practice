@@ -11,6 +11,7 @@ import static com.company.easy.EasyAdd.addition;
 import static com.company.easy.IsEqual.isHigherOrEqual;
 import static com.company.easy.IsSame.isSame;
 import static com.company.easy.MatchesLastItem.isEqualToLastItem;
+import static com.company.easy.RepeatLetter.repeat;
 import static com.company.easy.RookWork.canCapture;
 import static com.company.easy.Sort.ascendingOrder;
 import static com.company.medium.Fibonacci.fibonacciFormula;
@@ -84,6 +85,12 @@ public class Main {
         //call to ScoringSystem
         String newString = "ACBBAACBAA";
         System.out.println("Let's see who has the most initials from the string " + newString + ":" + Arrays.toString(calculateScores(newString)));
+
+        //call to RepeatLetter
+        String repeatString = "FAST";
+        System.out.println("Can we make a method that repeats the word " + repeatString + " 6 times? Yep! Here it is: "  + repeat(repeatString, 6));
+
+
     }
 
 
