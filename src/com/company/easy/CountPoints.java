@@ -9,18 +9,40 @@ public class CountPoints {
 						losses get 0 points
 					*/
 
+        /*
+        1. create the function with proper params
+        2. create a loop for the wins and another one for the draws (losses will always get zero)
+        3.create a total wins and add everything up?
+        */
+
         int totalWins = 0;
         int totalDraws = 0;
 
         for (int i = 0; i < wins; i++){
-            totalWins = wins * 3;
+         totalWins = wins * 3;
         }
 
-        for (int i = 0; i < draws; i++){
-            totalDraws = draws * 1;
-        }
+        totalDraws = draws;
 
-        int totalNumber = totalWins + totalDraws;
-        return totalNumber;
+        int totalPoints = totalWins + totalDraws;
+
+        return totalPoints;
+
     }
+
+
+//        int totalWins = 0;
+//        int totalDraws = 0;
+//
+//        for (int i = 0; i < wins; i++){
+//            totalWins = wins * 3;
+//        }
+//
+//        for (int i = 0; i < draws; i++){
+//            totalDraws = draws * 1;
+//        }
+//
+//        int totalNumber = totalWins + totalDraws;
+//        return totalNumber;
+//
 }
