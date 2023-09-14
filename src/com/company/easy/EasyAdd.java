@@ -11,8 +11,7 @@ public class EasyAdd {
 			4. remember to return
 		*/
 
-      int  result = num + 1;
-
-        return result;
+        int result;
+        return result = num + 1;
     }
 }
